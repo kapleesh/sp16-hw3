@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 	def home
-		@users = User.all
 		@cats = Cat.all
+		@users = User.all
 		#@todos = Todo.all
 	end
 end
